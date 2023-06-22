@@ -1,0 +1,154 @@
+header {
+    background-color: #F08080;
+    color: #FFFFFF;
+    text-align: center;
+    /* margin: 0; */
+}
+html {
+    margin: 0;
+    padding: 0;
+}
+
+nav > ul {
+    list-style-type: none;
+    padding: 0;
+    /* display: grid; */
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    gap: 1rem;
+    text-align: center;
+    text-decoration: none;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    
+}
+nav > ul > li > a{
+    text-decoration: none;
+    color: #FFFFFF;
+    
+}
+
+nav > ul > li{
+    margin: .5rem;
+    padding: .5rem;
+    border-bottom: 1px dotted #FFFFFF;
+}
+
+h1{
+    margin: 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 1rem;
+    border-bottom: 1px solid #FFFFFF;
+    font-weight: normal;
+}
+
+img {
+    width: 100%;
+
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.recipes > article > p {
+    margin: 0.5rem;
+}
+
+.footer-wrapper > section > ul > li{
+    list-style-type: none;
+    /* padding-right: 1rem; */
+    /* display: grid; */
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    gap: 1rem;
+    text-align: right;
+    margin: 0;
+    /* text-decoration: none; */
+}
+
+.contact{
+    color: black;
+    text-decoration: none;
+}
+.red1 {
+    color: #DC143C;
+}
+
+.links{
+    text-align:right;
+    text-decoration: none;
+    color: #E65A76;
+}
+
+.linkss{
+    /* text-align:right;? */
+    text-decoration: none;
+    color: #E65A76;
+}
+.fa-brands{
+color: #DC143C;
+
+}
+.recipes >article > h2{
+    padding-left: 1rem;
+    margin: 0;
+}
+
+footer {
+    border-top: 1px solid black;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+
+@media screen and (min-width: 600px){
+
+    .recipes {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap:1rem 
+    }
+    nav > ul {
+        text-align: left;
+
+    }
+    .footer-wrapper > section > ul > li{
+
+        text-align: center;
+
+    }
+    .footer-wrapper > section > .red {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 0;
+        padding: 0;
+        
+    }
+
+}
+@media screen and (min-width: 1100px){
+    nav > ul {
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    .recipes {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap:1rem 
+    }
+    main{
+        max-width: 1000px;
+        margin: auto;
+    }
+    .footer-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        /* margin: 0; */
+        /* padding: 0; */
+    }
+    .wrapper > header > nav > ul >li >.null{
+        display: none;
+    }
+}
