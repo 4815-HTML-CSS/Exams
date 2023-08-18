@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Vote for your favourite dancer</title>
+	<script src="https://kit.fontawesome.com/053681d152.js" crossorigin="anonymous"></script>
+
+	<!-- <link rel="stylesheet" href="style.css" /> -->
+	<link rel="stylesheet" href="vote-style.css">
+</head>
+<header class="header">
+	<div>
+		<h1>Danseuses et Danseurs</h1>
+	</div>
+	<div>
+		<!-- hamburger icon -->
+		<i class="fa-solid fa-bars"></i>
+
+		<!-- search icon -->
+		<i class="fa-solid fa-magnifying-glass"></i>
+	</div>
+</header>
+<main>
+	<div class="main-wrapper">
+
+		<div class="header2">
+			<div>
+			
+		<h1>Danseuses</h1>
+		<h1 class="espe">et</h1>
+		<h1>Danseurs</h1>
+			</div>
+			<div>
+				<!-- hamburger icon -->
+				<i class="fa-solid fa-bars"></i>
+				<br>
+				<!-- search icon -->
+				<i class="fa-solid fa-magnifying-glass"></i>
+			</div>
+		</div>
+		<div class="div1">
+			<br>
+			<h2 class="titl">Vote your favourite dancer</h2>
+			<form>
+				<div>
+					<div>
+						<label for="fname"> First Name: </label><br>
+						<input type="text" id="fname" placeholder="Firstname">
+					</div>
+					<div>
+						<label for="email">Email Address: </label><br>
+						<input type="email" id="email" placeholder="email">
+					</div>
+					<div>
+						<label for="genre">Favourite genre of dance: </label><br>
+						<select name="genre" id="genre">
+							<option selected disabled>Select a type of dance</option>
+							<option value="ballet">Classical Ballet</option>
+							<option value="contemporary">Contemporary</option>
+							<option value="hip hop">Hip Hop</option>
+							<option value="street">Street Dance</option>
+							<option value="jazz">Jazz</option>
+							<option value="broadway">Broadway</option>
+							<option value="ball room">Ball room</option>
+							<option value="others">Others</option>
+						</select>
+					</div>
+				</div>
+				<div>
+					<fieldset>
+						<legend>Articles you want to read about:</legend>
+						<div>
+							<label>
+								Famous ballet dancers
+								<input type="checkbox" name="category" value="dancers">
+							</label>
+						</div>
+						<div>
+							<label>
+								New productions
+								<input type="checkbox" name="category" value="news">
+							</label>
+						</div>
+						<div>
+							<label>
+								Dance education
+								<input type="checkbox" name="category" value="education">
+							</label>
+						</div>
+						<div>
+							<label>
+								I'll read any articles dance related!
+								<input type="checkbox" name="category" value="anything">
+							</label>
+						</div>
+					</fieldset>
+				</div>
+				<div>
+					<label for="dancer"> Your favourite dancer: </label><br>
+					<input type="text" id="dancer" placeholder="Name of a dancer">
+				</div>
+				<div>
+					<label for="comment"> Why do you like this dancer?: </label><br>
+					<textarea id="comment" name="comment"></textarea>
+				</div>
+
+				<input class="boto1" type="submit" value="Send">
+				<input class="boto2" type="reset" value="Clear">
+			</form>
+		</div>
+
+		<aside>
+			<div class="news">
+				<h2>News</h2>
+				<h3>Porro aliquid provident!</h3>
+
+				<p>Lorem ipsum dolor sit amet consectetur, adipisicing
+					elit. Nesciunt corporis reprehenderit nulla porro aliquid provident tempore
+					exercitationem perferendis totam libero.</p>
+
+				<img src="images/dance-competition1.jpg" alt="streed dance group at a dance competition">
+
+				<h3>Exercitationem perferendis</h3>
+
+				<p>Lorem ipsum dolor sit amet consectetur, adipisicing
+					elit. Nesciunt corporis reprehenderit nulla porro aliquid provident tempore
+					exercitationem perferendis totam libero.</p>
+
+				<img src="images/nycb.webp" alt="New York City Ballet young dancers dancing together">
+			</div>
+		</aside>
+	</div>
+</main>
+<footer>
+	<div class="vote">
+		<h3>Vote your favorite dancer</h3>
+		<!-- comment inserted for editing purpose -->
+		<a href="vote.html">
+			<p>Vote now</p>
+		</a>
+	</div>
+	<div>
+		<!-- comment inserted for editing purpose -->
+		<h3 class="show">Follow Us</h3>
+		<!-- comment inserted for editing purpose -->
+		<ul class="social">
+			<li><i class="fa-brands fa-twitter"></i></li>
+			<li><i class="fa-brands fa-facebook"></i></li>
+			<li><i class="fa-brands fa-instagram"></i></li>
+		</ul>
+	</div>
+</footer>
+
+</html>
